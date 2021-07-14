@@ -6,9 +6,6 @@ WORKDIR /opt/flaskblog
 
 ENV SECRET_KEY '5791628bb0b13ce0c676dfde280ba245'
 ENV SQLALCHEMY_DATABASE_URI 'sqlite:///site.db'
-ENV EMAIL_USER 'luhaoprivate@gmail.com'
-ENV EMAIL_PASS 'luhao@0630'
-
 
 ENV FLASK_APP run.py
 
